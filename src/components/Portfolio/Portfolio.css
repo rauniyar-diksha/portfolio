@@ -1,0 +1,10 @@
+.main-portfolio-box-col {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0 50px 0;
+}
+
+.images-main-wrapper .App-logo {
+    margin: 15px;
+}

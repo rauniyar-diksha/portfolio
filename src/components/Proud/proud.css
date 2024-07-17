@@ -1,0 +1,13 @@
+.proud-box {
+    text-align: center;
+    padding: 40px 0;
+    max-width: 1440px;
+    margin: auto;
+}
+.proud-box .bottom-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}

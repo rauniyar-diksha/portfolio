@@ -1,0 +1,16 @@
+.service-box-small {
+    padding: 40px 0 50px 0;
+    max-width: 1440px;
+    margin: auto;
+}
+.sricing {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+.sricing .dev-contnt h1 {
+    padding: 15px 0;
+}
+.service-box-small .explore-services {
+    max-width: 95%;
+}

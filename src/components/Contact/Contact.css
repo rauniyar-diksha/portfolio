@@ -1,0 +1,113 @@
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+
+.success-message {
+  font-size: 18px;
+  color: green;
+  text-align: center;
+  position: sticky;
+  top: 10px;
+  background-color: #d4edda;
+  padding: 10px;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  position: relative;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #33333363;
+  padding: 20px 20px 20px 30px;
+}
+.form-group input {
+    height: 50px;
+}
+.form-group input::placeholder, .form-group textarea::placeholder {
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 200px;
+    resize: none;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.both-wrapper {
+    background: #fcc0280d;
+    padding: 40px 0;
+}
+.filter-bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+.filter-bx .contact-box-content {
+    width: 50%;
+}
+.both-wrapper .icon img {
+    width: 29px;
+}
+.filter-bx .contact-box-content .bottom-box ul li, .filter-bx .contact-box-content .bottom-box ul li a {
+    color: #333333a6;
+    font-size: 18px;
+}
+.filter-bx .contact-box-content .bottom-box ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.filter-bx .contact-box-content .bottom-box ul li .icon {
+    margin: 0 20px 0 0;
+}
+.filter-bx .contact-box-content .top-content {
+    padding: 0 0 40px 46px;
+}
+
+
+/* Required field indicator */
+label.required::after {
+    content: '*';
+    color: red;
+    margin-left: 4px;
+    position: absolute;
+    right: -102px;
+    top: 0;
+}
+
+/* Additional styling for the asterisk */
+label.required::after {
+  font-weight: bold; /* Make the asterisk bold */
+}

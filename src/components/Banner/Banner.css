@@ -1,0 +1,41 @@
+.main-banner-sec .banner-content-box-sec .left-banner-box {
+    width: 50%;
+}
+.main-banner-sec .banner-content-box-sec .right-banner-box {
+    width: 50%;
+}
+.main-banner-sec .banner-content-box-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+}
+.main-banner-sec {
+    background: #fcc0280d;
+}
+.main-banner-sec .banner-content-box-sec .left-banner-box em {
+    color: #207733;
+    font-size: 23px;
+    font-style: normal;
+}
+.main-banner-sec .banner-content-box-sec .left-banner-box .text-box-sec span {
+    font-size: 25px;
+
+}
+.main-banner-sec .banner-content-box-sec .left-banner-box .text-box-sec h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+.main-banner-sec .banner-content-box-sec .left-banner-box .text-box-sec {
+    padding-bottom: 40px;
+}
+.main-banner-sec .banner-content-box-sec .dwnld button {
+    width: 150px;
+}
+.main-banner-sec .banner-content-box-sec .left-banner-box .text-box-sec p {
+    font-size: 18px;
+    line-height: 31px;
+    padding-top: 10px;
+}

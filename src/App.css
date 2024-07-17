@@ -1,38 +1,56 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+h1,h2,h3,h4,h5{
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+button {
+  background-color: #FCC028;
+  color: #fff;
+  border: 1px solid #FCC028;
+  border-radius: 3px;
+  width: 120px;
+  height: 45px;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+button:hover {
+  background: #505050;
+  border: 1px solid #505050;
+}
+p{
+  color: #333333a6;
+}
+span {
+  color: #FCC028;
+  font-size: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-box {
+  text-align: center;
+  padding: 0 0 40px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.explore-services a{
+  color: #FCC028;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.explore-services a:hover{
+  color: #000;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.explore-services {
+  text-align: right;
+  max-width: 88%;
 }
